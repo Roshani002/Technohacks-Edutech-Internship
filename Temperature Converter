@@ -8,7 +8,6 @@ def convert_temperature():
     except ValueError:
         celsius_label.config(text="Invalid input")
 
-# Create a Tkinter window
 window = tk.Tk()
 window.title("Temperature Converter")
 
